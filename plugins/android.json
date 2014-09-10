@@ -1,0 +1,31 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "AndroidManifest.xml": {
+            "/manifest": {
+                "<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"17\" />": 1,
+                "<uses-permission android:name=\"android.permission.CAMERA\" />": 1,
+                "<uses-permission android:name=\"android.permission.INTERNET\" />": 1,
+                "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />": 1,
+                "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />": 1,
+                "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />": 1,
+                "<uses-feature android:name=\"android.hardware.camera\" android:required=\"true\" />": 1,
+                "<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"true\" />": 1
+            }
+        },
+        "config.xml": {
+            "/*": {
+                "<feature name=\"OpenTokPlugin\"><param name=\"android-package\" value=\"com.tokbox.cordova.OpenTokAndroidPlugin\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.tokbox.cordova.opentok": {
+            "PACKAGE_NAME": "me.songz.fullTest"
+        }
+    },
+    "dependent_plugins": {}
+}

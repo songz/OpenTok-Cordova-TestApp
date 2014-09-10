@@ -1,0 +1,72 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "framework": {
+            "Foundation.framework": {
+                "false": 1
+            },
+            "UIKit.framework": {
+                "false": 1
+            },
+            "AVFoundation.framework": {
+                "false": 1
+            },
+            "QuartzCore.framework": {
+                "false": 1
+            },
+            "OpenGLES.framework": {
+                "false": 1
+            },
+            "CoreVideo.framework": {
+                "false": 1
+            },
+            "AudioToolbox.framework": {
+                "false": 1
+            },
+            "Security.framework": {
+                "false": 1
+            },
+            "CoreMedia.framework": {
+                "false": 1
+            },
+            "SystemConfiguration.framework": {
+                "false": 1
+            },
+            "CFNetwork.framework": {
+                "false": 1
+            },
+            "CoreTelephony.framework": {
+                "false": 1
+            },
+            "libstdc++.6.0.9.dylib": {
+                "false": 1
+            },
+            "libz.dylib": {
+                "false": 1
+            },
+            "libsqlite3.dylib": {
+                "false": 1
+            },
+            "libxml2.dylib": {
+                "false": 1
+            }
+        },
+        "config.xml": {
+            "/*/plugins": {
+                "<feature name=\"OpenTokPlugin\"><param name=\"ios-package\" value=\"OpenTokPlugin\" /></feature>": 1
+            },
+            "/*": {
+                "<access origin=\"*\" />": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.tokbox.cordova.opentok": {
+            "PACKAGE_NAME": "me.songz.fullTest"
+        }
+    },
+    "dependent_plugins": {}
+}
