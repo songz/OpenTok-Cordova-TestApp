@@ -4,21 +4,54 @@
         "uninstalled": []
     },
     "config_munge": {
-        "AndroidManifest.xml": {
-            "/manifest": {
-                "<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"17\" />": 1,
-                "<uses-permission android:name=\"android.permission.CAMERA\" />": 1,
-                "<uses-permission android:name=\"android.permission.INTERNET\" />": 1,
-                "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />": 1,
-                "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />": 1,
-                "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />": 1,
-                "<uses-feature android:name=\"android.hardware.camera\" android:required=\"true\" />": 1,
-                "<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"true\" />": 1
-            }
-        },
-        "config.xml": {
-            "/*": {
-                "<feature name=\"OpenTokPlugin\"><param name=\"android-package\" value=\"com.tokbox.cordova.OpenTokAndroidPlugin\" /></feature>": 1
+        "files": {
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"17\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"true\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"OpenTokPlugin\"><param name=\"android-package\" value=\"com.tokbox.cordova.OpenTokAndroidPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },

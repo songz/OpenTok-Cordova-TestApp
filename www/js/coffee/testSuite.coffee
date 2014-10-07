@@ -12,7 +12,8 @@ window.OTTest_helper =
   testAll: ->
     #@testSessionConnect()
     #@testPublisher()
-    @testSignal()
+    #@testSignal()
+    @testPublisher(1)
   testSignal: ->
     @data = @data || @getCredentials()
     @connections = {}
@@ -45,18 +46,18 @@ window.OTTest_helper =
     self = @
     switch type
       when 0
-        LogTest "testPublisher#{type}: no session"
+        LogTest "testPublisher#{type}: without connecting to session"
         publisher = TB.initPublisher(@data.apiKey, PUBLISHERDIV)
         window.setTimeout =>
           LogTest "#{type} publisher should be destroyed"
           publisher.destroy()
           window.setTimeout ->
             self.testPublisher(type+1)
-          , 20000
+          , 5000
         , 5000
       when 1
-        LogTest "testPublisher#{type}: create publisher then session connect"
-        publisher = TB.initPublisher(@data.apiKey, PUBLISHERDIV)
+        LogTest "testPublisher#{type}: create publisher, session connect, then session disconnect"
+        publisher = TB.initPublisher(@data.apiKey, PUBLISHERDIV, {cameraName: "back"})
         session = TB.initSession( @data.apiKey, @data.sid )
         window.setTimeout ->
           LogTest "testPublisher#{type}: should seee publisher now"
@@ -74,7 +75,7 @@ window.OTTest_helper =
             , 5000
         , 5000
       when 2
-        LogTest "testPublisher#{type}: create publisher in session connect"
+        LogTest "testPublisher#{type}: create publisher in session connect, publisher destroy, then session disconnect"
         session = TB.initSession( @data.apiKey, @data.sid )
         session.connect @data.token, (err) =>
           if(err?) then return
@@ -91,10 +92,39 @@ window.OTTest_helper =
             window.setTimeout =>
               session.disconnect()
             , 5000
-          , 30000
+          , 5000
+      when 3
+        LogTest "testPublisher#{type}: create publisher, swap camera, then disconnect"
+        publisher = TB.initPublisher(@data.apiKey, PUBLISHERDIV)
+        session = TB.initSession( @data.apiKey, @data.sid )
+        cameraswap = 0
+        window.setTimeout ->
+          LogTest "testPublisher#{type}: should seee publisher now"
+          session.connect self.data.token, (err) ->
+            LogTest "testPublisher#{type}: sessionConnected"
+            if(err?) then return
+            session.publish(publisher)
+            session.on "sessionDisconnected", ->
+              LogTest "#{type} publisher should be destroyed on sessionDisconnected"
+              window.setTimeout ->
+                self.testPublisher(type+1)
+              , 5000
+            changeCamera = ->
+              window.setTimeout =>
+                if cameraswap > 5
+                  session.disconnect()
+                else
+                  position = if cameraswap % 2 == 0 then "back" else "front"
+                  publisher.setCameraPosition position
+                  cameraswap += 1
+                  changeCamera()
+              , 5000
+            changeCamera()
+        , 5000
       else
         return
-  startGroupVideoChat: (data) ->
+
+  startGroupVideoChat: () ->
     publisher = TB.initPublisher(data.apiKey, PUBLISHERDIV)
     publisher.on
       "streamCreated": (event) ->

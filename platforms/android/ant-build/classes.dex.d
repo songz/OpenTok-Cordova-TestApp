@@ -1,17 +1,18 @@
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes.dex : \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$1.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$2.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnablePublisher.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableSubscriber.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableUpdateViews$CustomComparator.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableUpdateViews.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/BuildConfig.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/FullTest.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/R$attr.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/R$drawable.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/R$string.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/R$xml.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/classes/me/songz/fullTest/R.class \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/dexedLibs/classes-4e762417f5d012c0392b6d4748045472.jar \
-/Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/ant-build/dexedLibs/opentok-android-sdk-2.2.1-350a3d8565a3ceb181c3f9cb764593a1.jar \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes.dex : \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/CustomVideoCapturer.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$1.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$2.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnablePublisher.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableSubscriber.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableUpdateViews$CustomComparator.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin$RunnableUpdateViews.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/com/tokbox/cordova/OpenTokAndroidPlugin.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/BuildConfig.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/FullTest.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/R$attr.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/R$drawable.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/R$string.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/R$xml.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/classes/me/songz/fullTest/R.class \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/dexedLibs/classes-b7ac470e00ba2f35dbea0ec6752f7902.jar \
+/Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/ant-build/dexedLibs/opentok-android-sdk-2.3.0-a8779abbe9ef673ecbb2c26fa7873e62.jar \

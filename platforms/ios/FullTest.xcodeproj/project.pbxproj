@@ -38,24 +38,7 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		E1040D02F14540D9A2358A08 /* OpenTokPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AFBF5F48F4230835B9F33 /* OpenTokPlugin.m */; };
-		21AC785CB7114BD498C36215 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD587612C2064C478E02784B /* Opentok.framework */; };
-		C5D28139465443A89B250841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835C8F61DABE4205B61007B9 /* Foundation.framework */; };
-		239349F155494A4492388D7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D78366029744F69358B08B /* UIKit.framework */; };
-		FA05F53B259847E8B7BAECF8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B1BCC2C4F343AD8DF7E234 /* AVFoundation.framework */; };
-		4A4896691EEA489B9967DD1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65C49E14CF44AF4BC5248FF /* QuartzCore.framework */; };
-		8F43BDEF722F47BF92E7E472 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA7B842F99B497B9A3C1E6B /* OpenGLES.framework */; };
-		D4B9DEF191C140EE899A1A9B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19ECA9EC44340B9BF87CDDA /* CoreVideo.framework */; };
-		FCDEB13AF2924CF6B38C957E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB82ED2650140DE93A1E481 /* AudioToolbox.framework */; };
-		B91A5EF439F3465288E8D7EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31BF482E2AC49C781D0C00C /* Security.framework */; };
-		C3F11EC917D4498FA943A1AE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE48F4C696441918E003B38 /* CoreMedia.framework */; };
-		2839A9342E1C4286B4AC5BC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555C8A2EEDA43B0BA28469C /* SystemConfiguration.framework */; };
-		D757C8955460436F8F9C9F98 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29134568AB39401AAF8C3F7D /* CFNetwork.framework */; };
-		E826873E22314D71B8694E58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB61D5A42DD471CBA530D9C /* CoreTelephony.framework */; };
-		9120927BE7114FA0BC4229D8 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4A7AD507246C4AD57B6DA /* libstdc++.6.0.9.dylib */; };
-		B852B196BEC74B849B340279 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BF136D644248C4B7AC8340 /* libz.dylib */; };
-		D9C922FAA61548E2821861D5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D6A2014854003A7B46737 /* libsqlite3.dylib */; };
-		7EF34BF5A0784428AA79A492 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BA06DA2A284D3C97A885E1 /* libxml2.dylib */; };
+		0E1EBA6F9A404CD7A0A57842 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E5319A8D91534C88880F4627 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,14 +59,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00599AC4EBCC4998819EC963 /* CoreMedia.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* FullTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FullTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* FullTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDE2BB7EA1A49E492112910 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -101,9 +86,13 @@
 		30A0434414DC770100060A13 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		31AF9330CB00424AB6C098DF /* libsqlite3.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* FullTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FullTest-Prefix.pch"; sourceTree = "<group>"; };
+		4A3246E9472F4726B4F15973 /* Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5F75AB20CCFC4ADFB3969090 /* Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63A93B3FAC03439D9CDE5A02 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -114,31 +103,25 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		825EB3F6592741C5A644CC08 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83CD504121B641898E609E98 /* CoreTelephony.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		863CD78F68E74E269170A65E /* libxml2.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8C080EFD8169459F8B51E155 /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CC7C9A08F44408EBB36211D /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* FullTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FullTest-Info.plist"; path = "../FullTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		92BC82A3D91A4DBF840B2FF2 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		98B26E9193D44345B9D49FBF /* AVFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F62BDA97E0548EFBF67CD7E /* OpenTokPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenTokPlugin.h; path = com.tokbox.cordova.opentok/OpenTokPlugin.h; sourceTree = "<group>"; };
+		B1A8727A65C7478581E1DAAC /* libz.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B982996AE07A4AEA807C6304 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opentok.framework; path = FullTest/Plugins/com.tokbox.cordova.opentok/Opentok.framework; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		E3BE8FD7AC274D42BC670EB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "FullTest/config.xml"; sourceTree = "<group>"; };
-		372AFBF5F48F4230835B9F33 /* OpenTokPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "OpenTokPlugin.m"; path = "com.tokbox.cordova.opentok/OpenTokPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		15DE6F55F94E40BB8EABDE4C /* OpenTokPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OpenTokPlugin.h"; path = "com.tokbox.cordova.opentok/OpenTokPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		CD587612C2064C478E02784B /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Opentok.framework"; path = "FullTest/Plugins/com.tokbox.cordova.opentok/Opentok.framework"; sourceTree = "<group>"; };
-		835C8F61DABE4205B61007B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		42D78366029744F69358B08B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		40B1BCC2C4F343AD8DF7E234 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		F65C49E14CF44AF4BC5248FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		FEA7B842F99B497B9A3C1E6B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenGLES.framework"; path = "System/Library/Frameworks/OpenGLES.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		B19ECA9EC44340B9BF87CDDA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		BBB82ED2650140DE93A1E481 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		D31BF482E2AC49C781D0C00C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		6DE48F4C696441918E003B38 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		D555C8A2EEDA43B0BA28469C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		29134568AB39401AAF8C3F7D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		0EB61D5A42DD471CBA530D9C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		84A4A7AD507246C4AD57B6DA /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		E2BF136D644248C4B7AC8340 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		F16D6A2014854003A7B46737 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		47BA06DA2A284D3C97A885E1 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxml2.dylib"; path = "usr/lib/libxml2.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = FullTest/config.xml; sourceTree = "<group>"; };
+		FAD7119C831B4C1C9846D005 /* OpenTokPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenTokPlugin.m; path = com.tokbox.cordova.opentok/OpenTokPlugin.m; sourceTree = "<group>"; };
+		E5319A8D91534C88880F4627 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,23 +134,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				21AC785CB7114BD498C36215 /* Opentok.framework in Frameworks */,
-				C5D28139465443A89B250841 /* Foundation.framework in Frameworks */,
-				239349F155494A4492388D7B /* UIKit.framework in Frameworks */,
-				FA05F53B259847E8B7BAECF8 /* AVFoundation.framework in Frameworks */,
-				4A4896691EEA489B9967DD1D /* QuartzCore.framework in Frameworks */,
-				8F43BDEF722F47BF92E7E472 /* OpenGLES.framework in Frameworks */,
-				D4B9DEF191C140EE899A1A9B /* CoreVideo.framework in Frameworks */,
-				FCDEB13AF2924CF6B38C957E /* AudioToolbox.framework in Frameworks */,
-				B91A5EF439F3465288E8D7EF /* Security.framework in Frameworks */,
-				C3F11EC917D4498FA943A1AE /* CoreMedia.framework in Frameworks */,
-				2839A9342E1C4286B4AC5BC4 /* SystemConfiguration.framework in Frameworks */,
-				D757C8955460436F8F9C9F98 /* CFNetwork.framework in Frameworks */,
-				E826873E22314D71B8694E58 /* CoreTelephony.framework in Frameworks */,
-				9120927BE7114FA0BC4229D8 /* libstdc++.6.0.9.dylib in Frameworks */,
-				B852B196BEC74B849B340279 /* libz.dylib in Frameworks */,
-				D9C922FAA61548E2821861D5 /* libsqlite3.dylib in Frameworks */,
-				7EF34BF5A0784428AA79A492 /* libxml2.dylib in Frameworks */,
+				0E1EBA6F9A404CD7A0A57842 /* libstdc++.6.0.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +151,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "FullTest/Classes";
+			path = FullTest/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -236,7 +203,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "FullTest";
+			path = FullTest;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -251,7 +218,7 @@
 				8D1107310486CEB800E47090 /* FullTest-Info.plist */,
 			);
 			name = Resources;
-			path = "FullTest/Resources";
+			path = FullTest/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -261,23 +228,23 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				CD587612C2064C478E02784B /* Opentok.framework */,
-				835C8F61DABE4205B61007B9 /* Foundation.framework */,
-				42D78366029744F69358B08B /* UIKit.framework */,
-				40B1BCC2C4F343AD8DF7E234 /* AVFoundation.framework */,
-				F65C49E14CF44AF4BC5248FF /* QuartzCore.framework */,
-				FEA7B842F99B497B9A3C1E6B /* OpenGLES.framework */,
-				B19ECA9EC44340B9BF87CDDA /* CoreVideo.framework */,
-				BBB82ED2650140DE93A1E481 /* AudioToolbox.framework */,
-				D31BF482E2AC49C781D0C00C /* Security.framework */,
-				6DE48F4C696441918E003B38 /* CoreMedia.framework */,
-				D555C8A2EEDA43B0BA28469C /* SystemConfiguration.framework */,
-				29134568AB39401AAF8C3F7D /* CFNetwork.framework */,
-				0EB61D5A42DD471CBA530D9C /* CoreTelephony.framework */,
-				84A4A7AD507246C4AD57B6DA /* libstdc++.6.0.9.dylib */,
-				E2BF136D644248C4B7AC8340 /* libz.dylib */,
-				F16D6A2014854003A7B46737 /* libsqlite3.dylib */,
-				47BA06DA2A284D3C97A885E1 /* libxml2.dylib */,
+				B982996AE07A4AEA807C6304 /* Opentok.framework */,
+				5F75AB20CCFC4ADFB3969090 /* Foundation.framework */,
+				825EB3F6592741C5A644CC08 /* UIKit.framework */,
+				98B26E9193D44345B9D49FBF /* AVFoundation.framework */,
+				1DDE2BB7EA1A49E492112910 /* QuartzCore.framework */,
+				8C080EFD8169459F8B51E155 /* OpenGLES.framework */,
+				8CC7C9A08F44408EBB36211D /* CoreVideo.framework */,
+				63A93B3FAC03439D9CDE5A02 /* AudioToolbox.framework */,
+				4A3246E9472F4726B4F15973 /* Security.framework */,
+				00599AC4EBCC4998819EC963 /* CoreMedia.framework */,
+				E3BE8FD7AC274D42BC670EB5 /* SystemConfiguration.framework */,
+				92BC82A3D91A4DBF840B2FF2 /* CFNetwork.framework */,
+				83CD504121B641898E609E98 /* CoreTelephony.framework */,
+				B1A8727A65C7478581E1DAAC /* libz.dylib */,
+				31AF9330CB00424AB6C098DF /* libsqlite3.dylib */,
+				863CD78F68E74E269170A65E /* libxml2.dylib */,
+				E5319A8D91534C88880F4627 /* libstdc++.6.0.9.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,11 +260,11 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				372AFBF5F48F4230835B9F33 /* OpenTokPlugin.m */,
-				15DE6F55F94E40BB8EABDE4C /* OpenTokPlugin.h */,
+				FAD7119C831B4C1C9846D005 /* OpenTokPlugin.m */,
+				9F62BDA97E0548EFBF67CD7E /* OpenTokPlugin.h */,
 			);
 			name = Plugins;
-			path = "FullTest/Plugins";
+			path = FullTest/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -377,8 +344,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "FullTest";
-			productName = "FullTest";
+			name = FullTest;
+			productName = FullTest;
 			productReference = 1D6058910D05DD3D006BFB54 /* FullTest.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -388,9 +355,14 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 500;
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = MGD69Q275W;
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FullTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -489,7 +461,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				E1040D02F14540D9A2358A08 /* OpenTokPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +515,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -552,7 +529,8 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "FullTest/FullTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -567,23 +545,10 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "FullTest";
+				PRODUCT_NAME = FullTest;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-				);
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -592,13 +557,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FullTest/FullTest-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "FullTest/FullTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -613,23 +585,10 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "FullTest";
+				PRODUCT_NAME = FullTest;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-					"\"FullTest/Plugins/com.tokbox.cordova.opentok\"",
-				);
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -657,7 +616,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -703,7 +662,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -736,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FullTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

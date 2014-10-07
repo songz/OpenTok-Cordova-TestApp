@@ -256,18 +256,10 @@
 
 // Called by session.unsubscribe(streamId, top, left)
 - (void)signal:(CDVInvokedUrlCommand*)command{
-    NSLog(@"iOS signaling to connections");
-    
-    NSArray *connectionIds = [[command.arguments objectAtIndex:2] componentsSeparatedByString: @" "];
-    if ([connectionIds count] == 0 || [[connectionIds objectAtIndex:0] length] == 0) {
-        connectionIds = [connectionDictionary allKeys];
-    }
-    for (NSString* e in connectionIds){
-        OTConnection* c = [connectionDictionary objectForKey:e];
-        if (c) {
-            [_session signalWithType:[command.arguments objectAtIndex:0] string:[command.arguments objectAtIndex:1] connection:c error:nil];
-        }
-    }
+    NSLog(@"iOS signaling to connectionId %@", [command.arguments objectAtIndex:2]);
+    OTConnection* c = [connectionDictionary objectForKey: [command.arguments objectAtIndex:2]];
+    NSLog(@"iOS signaling to connection %@", c);
+    [_session signalWithType:[command.arguments objectAtIndex:0] string:[command.arguments objectAtIndex:1] connection:c error:nil];
 }
 
 
@@ -278,13 +270,20 @@
  ****/
 - (void)subscriberDidConnectToStream:(OTSubscriberKit*)sub{
     NSLog(@"iOS Connected To Stream");
+    NSMutableDictionary* eventData = [[NSMutableDictionary alloc] init];
+    NSString* streamId = sub.stream.streamId;
+    [eventData setObject:streamId forKey:@"streamId"];
+    [self triggerJSEvent: @"sessionEvents" withType: @"subscribedToStream" withData: eventData];
     
 }
 - (void)subscriber:(OTSubscriber*)subscrib didFailWithError:(OTError*)error{
     NSLog(@"subscriber didFailWithError %@", error);
-    CDVPluginResult* callbackResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString: subscrib.stream.connection.connectionId];
-    [callbackResult setKeepCallbackAsBool:YES];
-    //    [self.commandDelegate [callbackResult toSuccessCallbackString:self.streamDisconnectedId]];
+    NSMutableDictionary* eventData = [[NSMutableDictionary alloc] init];
+    NSString* streamId = subscrib.stream.streamId;
+    NSNumber* errorCode = [NSNumber numberWithInt:1600];
+    [eventData setObject: errorCode forKey:@"errorCode"];
+    [eventData setObject:streamId forKey:@"streamId"];
+    [self triggerJSEvent: @"sessionEvents" withType: @"subscribedToStream" withData: eventData];
 }
 
 
@@ -309,6 +308,8 @@
     
     // SessionId
     [sessionDict setObject:session.sessionId forKey:@"sessionId"];
+    
+    [connectionDictionary setObject: session.connection forKey: session.connection.connectionId];
     
     
     // After session is successfully connected, the connection property is available
@@ -386,8 +387,8 @@
     for ( id key in subscriberDictionary ) {
         OTSubscriber* aStream = [subscriberDictionary objectForKey:key];
         [aStream.view removeFromSuperview];
-        [subscriberDictionary removeObjectForKey:key];
     }
+    [subscriberDictionary removeAllObjects];
     if( _publisher ){
         [_publisher.view removeFromSuperview];
     }
@@ -496,3 +497,4 @@
 
 
 @end
+

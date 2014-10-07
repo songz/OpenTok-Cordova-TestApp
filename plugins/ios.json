@@ -4,62 +4,122 @@
         "uninstalled": []
     },
     "config_munge": {
-        "framework": {
-            "Foundation.framework": {
-                "false": 1
+        "files": {
+            "framework": {
+                "parents": {
+                    "Foundation.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "UIKit.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "AVFoundation.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "QuartzCore.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "OpenGLES.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreVideo.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "Security.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreMedia.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CFNetwork.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreTelephony.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libstdc++.6.0.9.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libz.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libsqlite3.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libxml2.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ]
+                }
             },
-            "UIKit.framework": {
-                "false": 1
-            },
-            "AVFoundation.framework": {
-                "false": 1
-            },
-            "QuartzCore.framework": {
-                "false": 1
-            },
-            "OpenGLES.framework": {
-                "false": 1
-            },
-            "CoreVideo.framework": {
-                "false": 1
-            },
-            "AudioToolbox.framework": {
-                "false": 1
-            },
-            "Security.framework": {
-                "false": 1
-            },
-            "CoreMedia.framework": {
-                "false": 1
-            },
-            "SystemConfiguration.framework": {
-                "false": 1
-            },
-            "CFNetwork.framework": {
-                "false": 1
-            },
-            "CoreTelephony.framework": {
-                "false": 1
-            },
-            "libstdc++.6.0.9.dylib": {
-                "false": 1
-            },
-            "libz.dylib": {
-                "false": 1
-            },
-            "libsqlite3.dylib": {
-                "false": 1
-            },
-            "libxml2.dylib": {
-                "false": 1
-            }
-        },
-        "config.xml": {
-            "/*/plugins": {
-                "<feature name=\"OpenTokPlugin\"><param name=\"ios-package\" value=\"OpenTokPlugin\" /></feature>": 1
-            },
-            "/*": {
-                "<access origin=\"*\" />": 1
+            "config.xml": {
+                "parents": {
+                    "/*/plugins": [
+                        {
+                            "xml": "<feature name=\"OpenTokPlugin\"><param name=\"ios-package\" value=\"OpenTokPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<access origin=\"*\" />",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },

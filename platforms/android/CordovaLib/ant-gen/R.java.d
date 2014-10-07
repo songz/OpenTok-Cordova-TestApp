@@ -1,1 +1,1 @@
- : /Users/song/CloudStorage/Dropbox/Tokbox/Code/phonegap/fullTest/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \
+ : /Users/songnfong/TokBox/Cordova/OpenTok-Cordova-TestApp/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \
