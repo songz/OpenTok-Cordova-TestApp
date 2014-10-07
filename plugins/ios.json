@@ -7,126 +7,32 @@
         "files": {
             "framework": {
                 "parents": {
-                    "Foundation.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "UIKit.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "AVFoundation.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "QuartzCore.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "OpenGLES.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "CoreVideo.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "AudioToolbox.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "Security.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "CoreMedia.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "SystemConfiguration.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "CFNetwork.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "CoreTelephony.framework": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "libstdc++.6.0.9.dylib": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "libz.dylib": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "libsqlite3.dylib": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ],
-                    "libxml2.dylib": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ]
+                    "Foundation.framework": [],
+                    "UIKit.framework": [],
+                    "AVFoundation.framework": [],
+                    "QuartzCore.framework": [],
+                    "OpenGLES.framework": [],
+                    "CoreVideo.framework": [],
+                    "AudioToolbox.framework": [],
+                    "Security.framework": [],
+                    "CoreMedia.framework": [],
+                    "SystemConfiguration.framework": [],
+                    "CFNetwork.framework": [],
+                    "CoreTelephony.framework": [],
+                    "libstdc++.6.0.9.dylib": [],
+                    "libz.dylib": [],
+                    "libsqlite3.dylib": [],
+                    "libxml2.dylib": []
                 }
             },
             "config.xml": {
                 "parents": {
-                    "/*/plugins": [
-                        {
-                            "xml": "<feature name=\"OpenTokPlugin\"><param name=\"ios-package\" value=\"OpenTokPlugin\" /></feature>",
-                            "count": 1
-                        }
-                    ],
-                    "/*": [
-                        {
-                            "xml": "<access origin=\"*\" />",
-                            "count": 1
-                        }
-                    ]
+                    "/*/plugins": [],
+                    "/*": []
                 }
             }
         }
     },
-    "installed_plugins": {
-        "com.tokbox.cordova.opentok": {
-            "PACKAGE_NAME": "me.songz.fullTest"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {}
 }

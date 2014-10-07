@@ -20,9 +20,6 @@
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
     <plugins>
-        <feature name="OpenTokPlugin">
-            <param name="ios-package" value="OpenTokPlugin" />
-        </feature>
     </plugins>
     <name>FullTest</name>
     <description>
@@ -32,5 +29,4 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
 </widget>

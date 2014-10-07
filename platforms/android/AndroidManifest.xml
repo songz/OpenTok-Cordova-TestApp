@@ -10,12 +10,4 @@
         </activity>
     </application>
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19" />
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
 </manifest>

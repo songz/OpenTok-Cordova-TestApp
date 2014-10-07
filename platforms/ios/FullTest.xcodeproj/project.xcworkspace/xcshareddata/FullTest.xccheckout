@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>359280CA-9056-43CA-B70F-C12057257076</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FullTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3105354490594D7991C224624A860EEF0095E52</key>
+		<string>https://github.com/songz/OpenTok-Cordova-TestApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/FullTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3105354490594D7991C224624A860EEF0095E52</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/songz/OpenTok-Cordova-TestApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3105354490594D7991C224624A860EEF0095E52</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3105354490594D7991C224624A860EEF0095E52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenTok-Cordova-TestApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
